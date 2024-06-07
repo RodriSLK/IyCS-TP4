@@ -34,10 +34,18 @@ public class ConvertidorDeUnidadesTest {
     }
 
     @Test
-    public void pruebaMetroAPulgada3() {
-        assertEquals(118.1103, convertidor.metroAPulgada(3), 0.0001);
+    public void pruebaMetroAPulgada3() { assertEquals(118.1103, convertidor.metroAPulgada(3), 0.0001);
     }
 
+    @Test
+    public void test_1_PulgadaAMetro() { assertEquals(0.0386, convertidor.pulgadaAMetro(1.52), 0.0001);
+    }
 
+    @Test
+    public void test_2_pruebaPulgadaAMetro() { assertEquals(0.0762, convertidor.pulgadaAMetro(3), 0.0001);
+    }
 
+    @Test
+    public void test_3_pruebaPulgadaAMetro() { assertEquals(2.5984, convertidor.pulgadaAMetro(102.3), 0.0001);
+    }
 }
