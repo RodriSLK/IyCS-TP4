@@ -23,6 +23,20 @@ public class ConvertidorDeUnidadesTest {
         assertEquals(0.009320565, convertidor.metroAMilla(15), 0.000000001);
     }
 
+    @Test
+    public void pruebaMetroAPulgada1() {
+        assertEquals(39.3701, convertidor.metroAPulgada(1), 0.0001);
+    }
+
+    @Test
+    public void pruebaMetroAPulgada2() {
+        assertEquals(78.7402, convertidor.metroAPulgada(2), 0.0001);
+    }
+
+    @Test
+    public void pruebaMetroAPulgada3() {
+        assertEquals(118.1103, convertidor.metroAPulgada(3), 0.0001);
+    }
 
 
 
