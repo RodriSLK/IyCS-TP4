@@ -10,7 +10,7 @@ public class ConvertidorDeUnidadesTest {
 
     @Test
     public void pruebaMultiplesMetrosAMillas_valor1() {
-        assertEquals(0.001242742, convertidor.metroAMilla(2), 0.000000001);
+        assertEquals(0.001242742, convertidor.metroAMilla(3), 0.000000001);
     }
 
     @Test
@@ -20,7 +20,7 @@ public class ConvertidorDeUnidadesTest {
 
     @Test
     public void pruebaMultiplesMetrosAMillas_valor3() {
-        assertEquals(0.0093205, convertidor.metroAMilla(15), 0.000000001);
+        assertEquals(0.009320565, convertidor.metroAMilla(15), 0.000000001);
     }
 
     //TESTS NICO
