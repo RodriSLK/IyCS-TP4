@@ -24,5 +24,10 @@ public class ConvertidorDeUnidadesTest {
         assertEquals(-1609.34, convertidor.millaAMetro(-1), 0.0001);
     }
 
+    @Test
+    public void pruebaMillaAMetro_valorNegativo2() {
+        assertEquals(-1609.34, convertidor.millaAMetro(-2), 0.0001);
+    }
+
 
 }
