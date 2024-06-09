@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.Entities.ConvertidorDeUnidadesTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-06-09T03:06:47" hostname="RODRI" time="0.116">
+<testsuite name="org.example.Entities.ConvertidorDeUnidadesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-06-09T21:26:16" hostname="DESKTOP-AJQFK3N" time="0.024">
   <properties/>
-  <testcase name="pruebaMultiplesMetrosAMillas_valorNegativo()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.044"/>
-  <testcase name="pruebaMultiplesMetrosAMillas_valorDecimal()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.006"/>
-  <testcase name="pruebaMultiplesMetrosAMillas_valorEntero()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.004"/>
-  <testcase name="pruebaMillaAMetro_valorPositivo()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.012"/>
-  <testcase name="pruebaMillaAMetro_valorNegativo()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.003"/>
-  <testcase name="pruebaMillaAMetro_cero()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.008"/>
+  <testcase name="pruebaMultiplesMetrosAMillas_valorNegativo()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.015"/>
+  <testcase name="pruebaMultiplesMetrosAMillas_valorDecimal()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.0"/>
+  <testcase name="pruebaMultiplesMetrosAMillas_valorEntero()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.001"/>
+  <testcase name="pruebaMillaAMetro_valorPositivo()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.001"/>
+  <testcase name="pruebaMillaAMetro_valorNegativo()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.001"/>
+  <testcase name="test_2_pruebaPulgadaAMetro()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.001"/>
+  <testcase name="test_3_pruebaPulgadaAMetro()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.0"/>
+  <testcase name="pruebaMillaAMetro_cero()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.0"/>
+  <testcase name="test_1_PulgadaAMetro()" classname="org.example.Entities.ConvertidorDeUnidadesTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
