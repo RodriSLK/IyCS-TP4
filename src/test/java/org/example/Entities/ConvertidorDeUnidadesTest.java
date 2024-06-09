@@ -24,9 +24,21 @@ public class ConvertidorDeUnidadesTest {
         assertEquals(-1609.34, convertidor.millaAMetro(-1), 0.0001);
     }
 
+
+    //Test Rodri
     @Test
-    public void pruebaMillaAMetro_valorNegativo2() {
-        assertEquals(-1609.34, convertidor.millaAMetro(-2), 0.0001);
+    public void pruebaMultiplesMetrosAMillas_valorEntero() {
+        assertEquals(0.001242742, convertidor.metroAMilla(2), 0.000000001);
+    }
+
+    @Test
+    public void pruebaMultiplesMetrosAMillas_valorNegativo() {
+        assertEquals(-0.001242742, convertidor.metroAMilla(-2), 0.000000001);
+    }
+
+    @Test
+    public void pruebaMultiplesMetrosAMillas_valorDecimal() {
+        assertEquals(0.002485484, convertidor.metroAMilla(4.0), 0.000000001);
     }
 
 
