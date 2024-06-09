@@ -56,4 +56,23 @@ public class ConvertidorDeUnidadesTest {
     public void test_3_pruebaPulgadaAMetro() {
         assertEquals(2.5984, convertidor.pulgadaAMetro(102.3), 0.0001);
     }
+
+    //Test Nico
+
+    @Test
+    public void pruebaMetroAPulgada1() {
+        assertEquals(39.3701, convertidor.metroAPulgada(1), 0.0001);
+    }
+
+    @Test
+    public void pruebaMetroAPulgada0() {
+        assertEquals(0, convertidor.metroAPulgada(0), 0.0001);
+    }
+
+    @Test
+    public void pruebaMetroAPulgada5() {
+        assertEquals(196.8505, convertidor.metroAPulgada(5), 0.0001);
+    }
+
+
 }
