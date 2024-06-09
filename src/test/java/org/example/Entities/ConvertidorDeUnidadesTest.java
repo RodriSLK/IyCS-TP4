@@ -75,4 +75,11 @@ public class ConvertidorDeUnidadesTest {
     }
 
 
+
+    //Test Facundo
+
+    @Test
+    public void prueba1_PulgadaAMilla(){
+        assertEquals(0.1578, convertidor.pulgadaAMilla(10000),0.0001);
+    }
 }

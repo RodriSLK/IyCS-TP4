@@ -24,7 +24,7 @@ public class ConvertidorDeUnidades {
 
     // Métodos para convertir entre pulgadas y millas
 
-    public double pulgadaAMilla(double pulgada) {
+    public double pulgadaAMilla(double pulgada) { //facundo
         return pulgada * 0.0000157828;
     }
 
