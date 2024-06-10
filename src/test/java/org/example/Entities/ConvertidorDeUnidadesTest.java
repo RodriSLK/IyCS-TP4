@@ -43,34 +43,34 @@ public class ConvertidorDeUnidadesTest {
 
     // Test Fran
     @Test
-    public void test_1_PulgadaAMetro() {
+    public void test_valorDecimal_PulgadaAMetro() {
         assertEquals(0.0386, convertidor.pulgadaAMetro(1.52), 0.0001);
     }
 
     @Test
-    public void test_2_pruebaPulgadaAMetro() {
+    public void test_valorUnitario_PulgadaAMetro() {
         assertEquals(0.0762, convertidor.pulgadaAMetro(3), 0.0001);
     }
 
     @Test
-    public void test_3_pruebaPulgadaAMetro() {
+    public void test_valorDecimalMayor_PulgadaAMetro() {
         assertEquals(2.5984, convertidor.pulgadaAMetro(102.3), 0.0001);
     }
 
     //Test Nico
 
     @Test
-    public void pruebaMetroAPulgada1() {
+    public void pruebaMetroAPulgada_valorUnitario() {
         assertEquals(39.3701, convertidor.metroAPulgada(1), 0.0001);
     }
 
     @Test
-    public void pruebaMetroAPulgada0() {
+    public void pruebaMetroAPulgada_valorNulo() {
         assertEquals(0, convertidor.metroAPulgada(0), 0.0001);
     }
 
     @Test
-    public void pruebaMetroAPulgada5() {
+    public void pruebaMetroAPulgada5_valorSimple() {
         assertEquals(196.8505, convertidor.metroAPulgada(5), 0.0001);
     }
 
@@ -79,17 +79,17 @@ public class ConvertidorDeUnidadesTest {
     //Test Facundo
 
     @Test
-    public void prueba1_PulgadaAMilla(){
+    public void prueba1_valorMayor_PulgadaAMilla(){
         assertEquals(0.1578, convertidor.pulgadaAMilla(10000),0.0001);
     }
 
     @Test
-    public void prueba2_PulgadaAMilla(){
+    public void prueba2_valorNulo_PulgadaAMilla(){
         assertEquals(0, convertidor.pulgadaAMilla(0),0.0001);
     }
 
     @Test
-    public void prueba3_PulgadaAMilla(){
+    public void prueba3_valorUnitario_PulgadaAMilla(){
         assertEquals(0.0000157, convertidor.pulgadaAMilla(1),0.0000001);
     }
 
