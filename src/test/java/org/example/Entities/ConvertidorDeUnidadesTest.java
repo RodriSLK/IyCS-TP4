@@ -94,15 +94,15 @@ public class ConvertidorDeUnidadesTest {
     }
 
     @Test
-    public void prueba1_millaAPulgada(){
+    public void test_valorUnitario_millaAPulgada(){
         assertEquals(63360, convertidor.millaAPulgada(1), 0.001);
     }
     @Test
-    public void prueba2_millaAPulgada(){
+    public void test_valorNulo_millaAPulgada(){
         assertEquals(0,0,0.0001);
     }
     @Test
-    public void prueba3_millaAPulgada(){
+    public void test_valorNegativo_millaAPulgada(){
         assertEquals(-63360,convertidor.millaAPulgada(-1), 0.0001);
     }
 }
