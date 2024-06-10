@@ -92,4 +92,17 @@ public class ConvertidorDeUnidadesTest {
     public void prueba3_PulgadaAMilla(){
         assertEquals(0.0000157, convertidor.pulgadaAMilla(1),0.0000001);
     }
+
+    @Test
+    public void prueba1_millaAPulgada(){
+        assertEquals(63360, convertidor.millaAPulgada(1), 0.001);
+    }
+    @Test
+    public void prueba2_millaAPulgada(){
+        assertEquals(0,0,0.0001);
+    }
+    @Test
+    public void prueba3_millaAPulgada(){
+        assertEquals(-63360,convertidor.millaAPulgada(-1), 0.0001);
+    }
 }
