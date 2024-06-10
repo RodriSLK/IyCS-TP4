@@ -102,7 +102,8 @@ public class ConvertidorDeUnidadesTest {
         assertEquals(0,0,0.0001);
     }
     @Test
-    public void test_valorNegativo_millaAPulgada(){
-        assertEquals(-63360,convertidor.millaAPulgada(-1), 0.0001);
+    public void test_valorNegativo_millaAPulgada() throws InterruptedException {
+        Thread.sleep(5000); // Pausa el hilo durante 5 segundos
+        assertEquals(-63360, convertidor.millaAPulgada(-1), 0.0001);
     }
 }
